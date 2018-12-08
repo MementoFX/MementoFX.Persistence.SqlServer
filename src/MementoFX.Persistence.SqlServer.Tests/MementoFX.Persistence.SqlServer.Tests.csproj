@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Andrea Saltarello, Managed Designs</Authors>
+    <Company>Managed Designs</Company>
+    <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
+    <Product>MementoFX</Product>
+    <PackageProjectUrl>https://opensource.manageddesigns.it/mementofx</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MementoFX/MementoFX.Persistence.SqlServer/</RepositoryUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/RPL-1.5</PackageLicenseUrl>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>MementoFX.Persistence.SqlServer.Tests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="Moq" Version="4.10.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MementoFX.Persistence.SqlServer\MementoFX.Persistence.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

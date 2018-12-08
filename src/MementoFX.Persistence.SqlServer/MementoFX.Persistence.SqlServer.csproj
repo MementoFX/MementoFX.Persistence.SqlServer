@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Andrea Saltarello, Managed Designs</Authors>
+    <Company>Managed Designs</Company>
+    <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
+    <Product>MementoFX</Product>
+    <PackageProjectUrl>https://opensource.manageddesigns.it/mementofx</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MementoFX/MementoFX.Persistence.SqlServer/</RepositoryUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/RPL-1.5</PackageLicenseUrl>
+
+    <Version>2.0.0-pre1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>mementofx, memento, sqlserver, event store, cqrs, ddd</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MementoFX" Version="2.0.0-pre6" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
